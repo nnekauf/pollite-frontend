@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/pollite-frontend/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/pollite-frontend/static/js/main.fca6f5b0.chunk.js",
-    "main.js.map": "/pollite-frontend/static/js/main.fca6f5b0.chunk.js.map",
+    "main.js": "/pollite-frontend/static/js/main.c31e8028.chunk.js",
+    "main.js.map": "/pollite-frontend/static/js/main.c31e8028.chunk.js.map",
     "runtime-main.js": "/pollite-frontend/static/js/runtime-main.e404dc30.js",
     "runtime-main.js.map": "/pollite-frontend/static/js/runtime-main.e404dc30.js.map",
-    "static/js/2.9e3a91ca.chunk.js": "/pollite-frontend/static/js/2.9e3a91ca.chunk.js",
-    "static/js/2.9e3a91ca.chunk.js.map": "/pollite-frontend/static/js/2.9e3a91ca.chunk.js.map",
+    "static/js/2.86220c64.chunk.js": "/pollite-frontend/static/js/2.86220c64.chunk.js",
+    "static/js/2.86220c64.chunk.js.map": "/pollite-frontend/static/js/2.86220c64.chunk.js.map",
     "static/js/3.21f559b1.chunk.js": "/pollite-frontend/static/js/3.21f559b1.chunk.js",
     "static/js/3.21f559b1.chunk.js.map": "/pollite-frontend/static/js/3.21f559b1.chunk.js.map",
     "index.html": "/pollite-frontend/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/pollite-frontend/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.9e3a91ca.chunk.js.LICENSE.txt": "/pollite-frontend/static/js/2.9e3a91ca.chunk.js.LICENSE.txt",
+    "static/js/2.86220c64.chunk.js.LICENSE.txt": "/pollite-frontend/static/js/2.86220c64.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/pollite-frontend/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e404dc30.js",
-    "static/js/2.9e3a91ca.chunk.js",
+    "static/js/2.86220c64.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.fca6f5b0.chunk.js"
+    "static/js/main.c31e8028.chunk.js"
   ]
 }
