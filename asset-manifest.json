@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pollit-frontend/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/pollit-frontend/static/js/main.fca6f5b0.chunk.js",
+    "main.js.map": "/pollit-frontend/static/js/main.fca6f5b0.chunk.js.map",
+    "runtime-main.js": "/pollit-frontend/static/js/runtime-main.8e3f3741.js",
+    "runtime-main.js.map": "/pollit-frontend/static/js/runtime-main.8e3f3741.js.map",
+    "static/js/2.9e3a91ca.chunk.js": "/pollit-frontend/static/js/2.9e3a91ca.chunk.js",
+    "static/js/2.9e3a91ca.chunk.js.map": "/pollit-frontend/static/js/2.9e3a91ca.chunk.js.map",
+    "static/js/3.21f559b1.chunk.js": "/pollit-frontend/static/js/3.21f559b1.chunk.js",
+    "static/js/3.21f559b1.chunk.js.map": "/pollit-frontend/static/js/3.21f559b1.chunk.js.map",
+    "index.html": "/pollit-frontend/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/pollit-frontend/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.9e3a91ca.chunk.js.LICENSE.txt": "/pollit-frontend/static/js/2.9e3a91ca.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/pollit-frontend/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e3f3741.js",
+    "static/js/2.9e3a91ca.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.fca6f5b0.chunk.js"
+  ]
+}
