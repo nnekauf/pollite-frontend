@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import React from 'react'
+import {connect} from 'react-redux'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      hello
+      Welcome to Pollite <br/>
+      /add search by zipcode component here/ <br/>
+      /add representatives component here/
     </div>
   );
 }
