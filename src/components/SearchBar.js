@@ -1,23 +1,37 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { getAllRepresentatives } from '../actions/representatives'
+import {updateZipcodeForm } from '../actions/zipcodeForm'
 
-const SearchBar = ({}) => {
+const SearchBar = ({updateZipcodeForm, getAllRepresentatives, zipcodeFormData}) => {
 
+    const handleChange = event => {
+        const { name, value } = event.target
+        const newZipcode = {
+          ...zipcodeFormData,
+          [name]: value
+        }
+        updateZipcodeForm(newZipcode)  
+    }
     const handleSubmit = e => {
         e.preventDefault()
-        getAllRepresentatives(zipcode)
+        getAllRepresentatives(zipcodeFormData)
 
     }
     
     return (
         <>
         <form onSubmit={handleSubmit}>
-            <input placeholder= "Enter Zipcode" value = {zipcode} onChange={handleChange}/>  
+            <input placeholder= "Enter Zipcode" value = {zipcodeFormData} onChange={handleChange}/>  
             < input type = "submit" value = "Submit" />
         </form>
         </>
     )
 }
 
-export default (SearchBar)
+const mapStateToProps = state => {
+    return {
+      zipcodeFormData: state.zipcodeForm
+    }
+  }
+export default connect (mapStateToProps,{updateZipcodeForm, getAllRepresentatives} )(SearchBar)

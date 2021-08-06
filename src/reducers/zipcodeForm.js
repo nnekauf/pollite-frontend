@@ -1,7 +1,4 @@
-const initialState = {
-    username: "",
-    password: ""
-  }
+const initialState = []
   
   
   const zipcodeForm = (state = initialState, action) => {
