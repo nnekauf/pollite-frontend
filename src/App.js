@@ -7,7 +7,8 @@ import Results from "./components/Results"
 function App() {
   return (
     <div className="App">
-      Welcome to Pollite <br/>
+      <header> <h1>Pollite</h1></header>  <br/>
+      <h2>Enter your Zip Code below to find the Representatives in your area</h2>
       <SearchBar/> <br/>
       <Results/>
     </div>
