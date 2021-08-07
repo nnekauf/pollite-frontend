@@ -1,4 +1,4 @@
-const initialState = []
+const initialState = ""
   
   
   const zipcodeForm = (state = initialState, action) => {

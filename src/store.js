@@ -10,7 +10,9 @@ const combinedReducer = combineReducers({
  
 })
 
-const store = createStore(combinedReducer, compose(applyMiddleware(thunk), composeWithDevTools()))
+const store = createStore(combinedReducer, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__
+? window.__REDUX_DEVTOOLS_EXTENSION__()
+: f => f))
 
 
 export default store
