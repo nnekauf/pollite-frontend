@@ -1,12 +1,14 @@
-const initialState = []
-
+// const initialState = {
+//     state: "",
+//     city: "",
+//     zipcode: "",
+//     officials: ""
+// }  
+     const initialState = []   
 export default function representatives(state = initialState, action) {
     switch (action.type) {
-      case "FETCH_REPRESENTATIVES":
-        return {
-            ...state,
-            representatives: action.payload,
-          };
+      case "ALL":
+        return action.representatives
       default:
         return state
     }

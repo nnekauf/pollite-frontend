@@ -6,7 +6,7 @@ const Results = ({representatives}) => {
     
     return (
         <>
-        {representatives}
+        {representatives.map (r => <div> {r} </div>  )}
         </>
     )
 }

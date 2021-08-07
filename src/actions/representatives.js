@@ -1,10 +1,11 @@
 
 export const showAllRepresentatives = representatives => {
+   
     return {
         type: "ALL",
         representatives
-        
     }
+   
 }
 
 export const getAllRepresentatives = (zipcode) => {
@@ -23,6 +24,7 @@ export const getAllRepresentatives = (zipcode) => {
                 alert(r.error)
             } else {
                 
+              
                 dispatch(showAllRepresentatives(r))
     
             }
