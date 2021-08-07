@@ -32,7 +32,8 @@ const SearchBar = ({updateZipcodeForm, getAllRepresentatives, zipcodeFormData}) 
 
 const mapStateToProps = state => {
     return {
-      zipcodeFormData: state.zipcodeForm
+      zipcodeFormData: state.zipcodeForm,
+      
     }
   }
 export default connect (mapStateToProps,{updateZipcodeForm, getAllRepresentatives} )(SearchBar)

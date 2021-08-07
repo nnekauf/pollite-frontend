@@ -3,14 +3,15 @@ export const showAllRepresentatives = representatives => {
     return {
         type: "ALL",
         representatives
+        
     }
 }
 
 export const getAllRepresentatives = (zipcode) => {
     return dispatch => {
-        return fetch("http://localhost:3000/api/v1/representatives/", {
+        return fetch("http://localhost:3000/api/v1/find_reps", {
             credentials: "include",
-            method: "GET",
+            method: "POST",
             headers: {
                 "Content-Type": "application/json"
               },
@@ -21,6 +22,7 @@ export const getAllRepresentatives = (zipcode) => {
             if (r.error) {
                 alert(r.error)
             } else {
+                
                 dispatch(showAllRepresentatives(r))
     
             }
