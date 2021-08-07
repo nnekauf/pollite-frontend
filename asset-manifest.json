@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/pollite-frontend/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/pollite-frontend/static/js/main.c31e8028.chunk.js",
-    "main.js.map": "/pollite-frontend/static/js/main.c31e8028.chunk.js.map",
-    "runtime-main.js": "/pollite-frontend/static/js/runtime-main.e404dc30.js",
-    "runtime-main.js.map": "/pollite-frontend/static/js/runtime-main.e404dc30.js.map",
-    "static/js/2.86220c64.chunk.js": "/pollite-frontend/static/js/2.86220c64.chunk.js",
-    "static/js/2.86220c64.chunk.js.map": "/pollite-frontend/static/js/2.86220c64.chunk.js.map",
-    "static/js/3.21f559b1.chunk.js": "/pollite-frontend/static/js/3.21f559b1.chunk.js",
-    "static/js/3.21f559b1.chunk.js.map": "/pollite-frontend/static/js/3.21f559b1.chunk.js.map",
+    "main.css": "/pollite-frontend/static/css/main.d87cbb72.chunk.css",
+    "main.js": "/pollite-frontend/static/js/main.f86e20c0.chunk.js",
+    "main.js.map": "/pollite-frontend/static/js/main.f86e20c0.chunk.js.map",
+    "runtime-main.js": "/pollite-frontend/static/js/runtime-main.6a1bb77e.js",
+    "runtime-main.js.map": "/pollite-frontend/static/js/runtime-main.6a1bb77e.js.map",
+    "static/js/2.be06e305.chunk.js": "/pollite-frontend/static/js/2.be06e305.chunk.js",
+    "static/js/2.be06e305.chunk.js.map": "/pollite-frontend/static/js/2.be06e305.chunk.js.map",
     "index.html": "/pollite-frontend/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/pollite-frontend/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.86220c64.chunk.js.LICENSE.txt": "/pollite-frontend/static/js/2.86220c64.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/pollite-frontend/static/media/logo.6ce24c58.svg"
+    "static/css/main.d87cbb72.chunk.css.map": "/pollite-frontend/static/css/main.d87cbb72.chunk.css.map",
+    "static/js/2.be06e305.chunk.js.LICENSE.txt": "/pollite-frontend/static/js/2.be06e305.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e404dc30.js",
-    "static/js/2.86220c64.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c31e8028.chunk.js"
+    "static/js/runtime-main.6a1bb77e.js",
+    "static/js/2.be06e305.chunk.js",
+    "static/css/main.d87cbb72.chunk.css",
+    "static/js/main.f86e20c0.chunk.js"
   ]
 }
