@@ -1,5 +1,6 @@
-const initialState = ""
-  
+const initialState = {
+    zipcode: ""
+  }
   
   const zipcodeForm = (state = initialState, action) => {
     switch (action.type) {
