@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header> <h1>Pollite</h1></header>  <br/>
-      <h2>Enter your Zip Code below to find the Representatives in your area</h2>
+      <h2>Enter your Zip Code below to find the Representatives in your area!</h2>
       <SearchBar/> <br/>
       <Results/>
     </div>
