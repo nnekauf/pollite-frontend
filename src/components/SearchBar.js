@@ -16,7 +16,7 @@ const SearchBar = ({updateZipcodeForm, getAllRepresentatives, zipcodeFormData}) 
     }
     const handleSubmit = e => {
         e.preventDefault()
-        getAllRepresentatives(zipcodeFormData)
+        getAllRepresentatives(zipcodeFormData.zipcode)
 
     }
     
