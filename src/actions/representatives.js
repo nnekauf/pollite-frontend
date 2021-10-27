@@ -10,13 +10,13 @@ export const showAllRepresentatives = representatives => {
 
 export const getAllRepresentatives = (zipcode) => {
     return dispatch => {
-        return fetch("http://localhost:3000/api/v1/find_reps", {
+        return fetch(`http://localhost:3000/api/v1/representatives/${zipcode}`, {
             credentials: "include",
-            method: "POST",
+            method: "GET",
             headers: {
                 "Content-Type": "application/json"
-              },
-              body: JSON.stringify(zipcode)
+              }
+            //   ,body: JSON.stringify(zipcode)
         })
         .then (response => response.json())
         .then (r => {
