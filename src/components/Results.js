@@ -6,7 +6,7 @@ const Results = ({representatives}) => {
     
     return (
         <>
-        {representatives.officials.map (r => <div> {r} </div>  )}
+        {representatives.officials ? representatives.officials.map (r => <div> {r} </div>  ) : null}
         </>
     )
 }
